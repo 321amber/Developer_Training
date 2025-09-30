@@ -26,7 +26,7 @@ let result2 = arr.find((ele)=>{
 
 console.log(result2);
 
-//some -- returns the true or false if sny of the element element satisfy condition or not.
+//some -- returns the true or false if any of the element element satisfy condition or not.
 let answer = arr.some((ele)=>{
     return ele%2 ===0;
 })
