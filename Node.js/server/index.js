@@ -13,7 +13,7 @@ const myServer = http.createServer((req,res)=>{
             break;
             case "/about":
                 const myname = req.query.search_query
-                res.end(`HI, ${myname}`)
+                res.end(`HI, ${myname}`);
             break;
             default:
                 res.end("404 page not found")
